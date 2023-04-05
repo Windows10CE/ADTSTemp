@@ -2,9 +2,9 @@
 ####################### Makefile Template ##############################
 ########################################################################
 # Student settings
-NAME = YOURNAME
-SID = YOURSID
-EMAIL = YOURUTAEMAIL
+NAME = Aaron Robinson
+SID = 1002056715
+EMAIL = ajr6715@mavs.uta.edu
  
 author: 
 	@echo $(NAME)
