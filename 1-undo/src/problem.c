@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 
     // Print out the final text (after redo/undo)
     stringstack_reverse(output);
-    while (stringstack_len(output) > 0)
+    while (!stringstack_empty(output))
     {
         printf("%s", stringstack_pop(output));
     }
